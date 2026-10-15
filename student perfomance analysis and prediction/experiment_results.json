@@ -1,0 +1,243 @@
+{
+    "dataset_info": {
+        "n_rows": 395,
+        "n_cols": 33,
+        "missing_values": 0,
+        "duplicates": 0,
+        "train_size": 276,
+        "val_size": 59,
+        "test_size": 60
+    },
+    "g3_stats": {
+        "count": 395,
+        "mean": 10.415189873417722,
+        "std": 4.5814426109978434,
+        "median": 11.0,
+        "mode": 10.0,
+        "min": 0.0,
+        "q25": 8.0,
+        "q75": 14.0,
+        "iqr": 6.0,
+        "max": 20.0,
+        "skewness": -0.7326723530443435,
+        "kurtosis": 0.4034208131242458,
+        "zero_count": 38,
+        "zero_percentage": 9.620253164556962
+    },
+    "numerical_summary": {
+        "age": {
+            "mean": 16.696,
+            "std": 1.276,
+            "median": 17.0,
+            "mode": 16.0,
+            "min": 15.0,
+            "max": 22.0,
+            "iqr": 2.0,
+            "skewness": 0.466
+        },
+        "Medu": {
+            "mean": 2.749,
+            "std": 1.095,
+            "median": 3.0,
+            "mode": 4.0,
+            "min": 0.0,
+            "max": 4.0,
+            "iqr": 2.0,
+            "skewness": -0.318
+        },
+        "Fedu": {
+            "mean": 2.522,
+            "std": 1.088,
+            "median": 2.0,
+            "mode": 2.0,
+            "min": 0.0,
+            "max": 4.0,
+            "iqr": 1.0,
+            "skewness": -0.032
+        },
+        "traveltime": {
+            "mean": 1.448,
+            "std": 0.698,
+            "median": 1.0,
+            "mode": 1.0,
+            "min": 1.0,
+            "max": 4.0,
+            "iqr": 1.0,
+            "skewness": 1.607
+        },
+        "studytime": {
+            "mean": 2.035,
+            "std": 0.839,
+            "median": 2.0,
+            "mode": 2.0,
+            "min": 1.0,
+            "max": 4.0,
+            "iqr": 1.0,
+            "skewness": 0.632
+        },
+        "failures": {
+            "mean": 0.334,
+            "std": 0.744,
+            "median": 0.0,
+            "mode": 0.0,
+            "min": 0.0,
+            "max": 3.0,
+            "iqr": 0.0,
+            "skewness": 2.387
+        },
+        "famrel": {
+            "mean": 3.944,
+            "std": 0.897,
+            "median": 4.0,
+            "mode": 4.0,
+            "min": 1.0,
+            "max": 5.0,
+            "iqr": 1.0,
+            "skewness": -0.952
+        },
+        "freetime": {
+            "mean": 3.235,
+            "std": 0.999,
+            "median": 3.0,
+            "mode": 3.0,
+            "min": 1.0,
+            "max": 5.0,
+            "iqr": 1.0,
+            "skewness": -0.163
+        },
+        "goout": {
+            "mean": 3.109,
+            "std": 1.113,
+            "median": 3.0,
+            "mode": 3.0,
+            "min": 1.0,
+            "max": 5.0,
+            "iqr": 2.0,
+            "skewness": 0.117
+        },
+        "Dalc": {
+            "mean": 1.481,
+            "std": 0.891,
+            "median": 1.0,
+            "mode": 1.0,
+            "min": 1.0,
+            "max": 5.0,
+            "iqr": 1.0,
+            "skewness": 2.191
+        },
+        "Walc": {
+            "mean": 2.291,
+            "std": 1.288,
+            "median": 2.0,
+            "mode": 1.0,
+            "min": 1.0,
+            "max": 5.0,
+            "iqr": 2.0,
+            "skewness": 0.612
+        },
+        "health": {
+            "mean": 3.554,
+            "std": 1.39,
+            "median": 4.0,
+            "mode": 5.0,
+            "min": 1.0,
+            "max": 5.0,
+            "iqr": 2.0,
+            "skewness": -0.495
+        },
+        "absences": {
+            "mean": 5.709,
+            "std": 8.003,
+            "median": 4.0,
+            "mode": 0.0,
+            "min": 0.0,
+            "max": 75.0,
+            "iqr": 8.0,
+            "skewness": 3.672
+        },
+        "G1": {
+            "mean": 10.909,
+            "std": 3.319,
+            "median": 11.0,
+            "mode": 10.0,
+            "min": 3.0,
+            "max": 19.0,
+            "iqr": 5.0,
+            "skewness": 0.241
+        },
+        "G2": {
+            "mean": 10.714,
+            "std": 3.762,
+            "median": 11.0,
+            "mode": 9.0,
+            "min": 0.0,
+            "max": 19.0,
+            "iqr": 4.0,
+            "skewness": -0.432
+        },
+        "G3": {
+            "mean": 10.415,
+            "std": 4.581,
+            "median": 11.0,
+            "mode": 10.0,
+            "min": 0.0,
+            "max": 20.0,
+            "iqr": 6.0,
+            "skewness": -0.733
+        }
+    },
+    "model_results": {
+        "dummy_baseline": {
+            "mae": 3.594,
+            "mse": 20.065,
+            "rmse": 4.479,
+            "r2": -0.002
+        },
+        "linear_reg_setting_A_without_g1_g2": {
+            "mae": 3.047,
+            "mse": 15.214,
+            "rmse": 3.901,
+            "r2": 0.24
+        },
+        "linear_reg_setting_B_with_g1_g2": {
+            "mae": 1.516,
+            "mse": 4.224,
+            "rmse": 2.055,
+            "r2": 0.789
+        },
+        "mlp_setting_A_without_g1_g2": {
+            "mae": 3.741,
+            "mse": 21.733,
+            "rmse": 4.662,
+            "r2": -0.085
+        },
+        "mlp_setting_B_with_g1_g2": {
+            "mae": 1.405,
+            "mse": 4.747,
+            "rmse": 2.179,
+            "r2": 0.763
+        }
+    },
+    "top_5_permutation_features": [
+        {
+            "Feature": "G2",
+            "Importance": 24.149085729061536
+        },
+        {
+            "Feature": "G1",
+            "Importance": 1.476925484191673
+        },
+        {
+            "Feature": "absences",
+            "Importance": 1.1207639882542937
+        },
+        {
+            "Feature": "traveltime",
+            "Importance": 0.6405940809362507
+        },
+        {
+            "Feature": "reason_home",
+            "Importance": 0.3503203552258256
+        }
+    ]
+}
